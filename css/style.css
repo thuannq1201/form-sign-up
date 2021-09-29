@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main{
+	width: 100vw;
+	height: 100vh;
+}
+
+.left-container{
+	width: 50vw;
+	height: 100vh;
+	background: url('../images/background-left.png') center / cover no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-container .logo{
+	position: absolute;
+    top: 20px;
+    left: 30px;
+    font-family: 'Ephesis', cursive;
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.left-container .social{
+	padding: 5px 80px;
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.left-container .social i{
+	margin-right: 10px;
+}
+
+.right-container {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.right-container form {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-container form h2{
+	text-align: center;
+	font-size: 2.5rem;
+	margin:0 0 15px 0;
+	font-family: 'Ephesis', cursive;
+}
+
+.right-container form small{
+	text-align: center;
+	font-size: 1rem;
+	color: #333;
+	margin: 5px 0;
+}
+
+.right-container form span{
+	margin-top: 20px;
+}
+
+.right-container form input{
+	outline: none;
+	border: 1px solid #333;
+	padding: 5px 0;
+}
+
+.right-container form .checkbox{
+	margin: 20px 0;
+	text-align: justify; 
+}
+
+.right-container form button{
+	background-color: #03a9f4;
+	padding: 5px 0;
+	font-size: 1rem;
+	outline: none;
+	border: 1px solid #333;
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+.right-container .top{
+    top: 0px;
+    position: absolute;
+    right: 0px;
+}
+
+.right-container .bottom{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}

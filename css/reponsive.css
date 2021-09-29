@@ -1,0 +1,17 @@
+/* mobile */
+@media(max-width: 739px) {
+	.left-container{
+		width: 100vw;
+	}
+
+	.right-container{
+		width: 100vw;
+	}
+}
+
+/* laptop and tablet */
+@media(min-width: 740px){
+	.main{
+		display: flex;
+	}
+}
